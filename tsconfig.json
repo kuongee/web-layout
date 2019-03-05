@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "outDir": "dist",
+        "module": "commonjs",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "jsx": "react",
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": false,
+        "types": [
+            "react",
+            "react-dom",
+            "styled-components"
+        ],
+        "lib": [
+            "dom",
+            "es6"
+        ]
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "assets",
+        "node_modules"
+    ]   
+}
